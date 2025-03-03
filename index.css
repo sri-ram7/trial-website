@@ -1,0 +1,428 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    padding: 10px;
+    border: 1px #e0e0e0 solid;
+    border-radius: 7px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.logo{
+    color: black;
+}
+
+.container ul{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+
+}
+
+.content .left:hover{
+    transform: scale(1.2);
+}
+
+.container ul li{
+    list-style: none;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.container ul li:hover{
+    transform: scale(1.3);
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+.container ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    transition: all ease 1s;
+}
+
+.container ul li a:hover{
+    transform: scale(1);
+}
+
+footer{
+    width: 100%;
+}
+
+.footerbox{
+    background-image: linear-gradient(-225deg,#7742B2 0%,#F180FF 52%, #FD8BD9 100%);
+    color: #ffff;
+    height: 90px;
+    text-align: center;
+    width: 100vw;
+    align-content:center ;
+}
+
+section{
+    width: 100vw;
+}
+
+.label1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.label1 img{
+    width: 450px;
+    height: 300px;
+
+}
+
+.label1 content{
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+    padding-top: 60px;
+    padding-left: 45px;
+    padding-bottom: 60px;
+    padding-right: 45px;
+}
+
+.heading1{
+    margin-left: 52px;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.label2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 25px; 
+    margin-bottom: 50px;
+}
+
+.label2 .pic1 img{
+     height: 180px;
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+     box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+     width: 258px;
+     border-radius: 10px;
+}
+
+.label2 .pic2 img{
+    height: 180px;
+   -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+   -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+    width: 258px;
+    border-radius: 10px;
+}
+
+.label2 .pic3 img{
+    height: 180px;
+   -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+   -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+    width: 258px;
+    border-radius: 10px;
+}
+
+.label2 .pic1 p{
+    margin-top: 5px;
+    margin-left:47px;
+    font-family: Arial;
+}
+
+.label2 .pic2 p{
+    margin-top: 5px;
+    margin-left:47px;
+    font-family: Arial;
+}
+
+.label2 .pic3 p{
+    margin-top: 5px;
+    margin-left:47px;
+    font-family: Arial;
+}
+
+.label2 .pic1 button{
+    margin-top: 10px;
+    margin-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+    color: white;
+    transition: transform ease  0.1s;
+}
+
+.label2 .pic1 button:hover{
+    transform: scale(
+        1.3
+    );
+}
+
+.label2 .pic2 button{
+    margin-top: 10px;
+    margin-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+    color: white;
+    transition: transform ease  0.1s;
+}
+
+.label2 .pic2 button:hover{
+    transform: scale(
+        1.3
+    );
+}
+
+.label2 .pic3 button{
+    margin-top: 10px;
+    margin-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+    color: white;
+    transition: transform ease  0.1s;
+}
+
+.label2 .pic3 button:hover{
+    transform: scale(
+        1.3
+    );
+}
+
+.heading2{
+    margin-left: 52px;
+    margin-top: 40px;
+
+}
+
+.label3{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.label3 .pic1 img{
+     height: 180px;
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+     box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+     width: 258px;
+     border-radius: 10px;
+}
+
+.label3 .pic2 img{
+    height: 180px;
+   -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+   -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+    width: 258px;
+    border-radius: 10px;
+}
+
+.label3 .pic3 img{
+    height: 180px;
+   -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+   -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+    width: 258px;
+    border-radius: 10px;
+}
+
+.label3 .pic1 p{
+    margin-top: 5px;
+    margin-left:47px;
+    font-family: Arial;
+}
+
+.label3 .pic2 p{
+    margin-top: 5px;
+    margin-left:47px;
+    font-family: Arial;
+}
+
+.label3 .pic3 p{
+    margin-top: 5px;
+    margin-left:47px;
+    font-family: Arial;
+}
+
+.label3 .pic1 button{
+    margin-top: 10px;
+    margin-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+    color: white;
+    transition: transform ease  0.1s;
+}
+
+.label3 .pic1 button:hover{
+    transform: scale(
+        1.3
+    );
+}
+
+.label3 .pic2 button{
+    margin-top: 10px;
+    margin-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+    color: white;
+    transition: transform ease  0.1s;
+}
+
+.label3 .pic2 button:hover{
+    transform: scale(
+        1.3
+    );
+}
+
+.label3 .pic3 button{
+    margin-top: 10px;
+    margin-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+    color: white;
+    transition: transform ease  0.1s;
+}
+
+.label3 .pic3 button:hover{
+    transform: scale(
+        1.3
+    );
+}
+
+.heading3{
+    margin-left: 52px;
+    margin-top: 40px;
+}
+
+.label4{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+
+
+}
+
+.label4 .pic1 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-size: cover;
+}
+.label4 .pic2 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-size: cover;
+}
+.label4 .pic3 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-size: cover;
+}
+.label4 .pic4 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.label4 .pic5 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.label4 .pic1 p{
+    margin-top:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 45px;
+    font-size: 19px;
+}
+
+.label4 .pic2 p{
+    margin-top:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 45px;
+    font-size: 19px;
+}
+
+.label4 .pic3 p{
+    margin-top:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 45px;
+    font-size: 19px;
+}
+
+.label4 .pic4 p{
+    margin-top:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 45px;
+    font-size: 19px;
+}
+
+.label4 .pic5 p{
+    margin-top:5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 45px;
+    font-size: 19px;
+}
+
+
